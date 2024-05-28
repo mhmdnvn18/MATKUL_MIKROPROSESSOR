@@ -54,3 +54,4 @@ while True:
     for i in range (4):
         led[i].value(int(four_bit[i]))
 
+# Program utama dieksekusi setiap 1000 x 44000 ms

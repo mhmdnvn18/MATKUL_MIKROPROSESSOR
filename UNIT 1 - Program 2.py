@@ -61,3 +61,6 @@ while True:
 
     # Delay 100 ms
     sleep(0.1)
+
+
+# Program utama dieksekusi setiap 1000 x 44000 ms

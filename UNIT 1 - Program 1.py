@@ -29,3 +29,7 @@ while True:
     led[3].value(1)
     sleep(1)
     led[3].value(0)
+
+
+# Program utama dieksekusi setiap 1000 x 44000 ms
+
