@@ -53,5 +53,6 @@ while True:
     #time.sleep(1)
     for i in range (4):
         led[i].value(int(four_bit[i]))
+    Sleep(0.1)
 
 # Program utama dieksekusi setiap 1000 x 44000 ms
