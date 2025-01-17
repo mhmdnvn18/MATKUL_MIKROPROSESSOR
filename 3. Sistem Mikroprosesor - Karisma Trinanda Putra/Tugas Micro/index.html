@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      setInterval(function() {
+        $.get("/sensor-data", function(data) {
+          $("#light-level").text("Light Level: " + data.lux + " lx");
+        });
+      }, 1000); // Perbarui setiap 1 detik
+    });
+  </script>
+</head>
+<body>
+  <h1>Light Sensor Readings</h1>
+  <p id="light-level">Loading...</p>
+</body>
+</html>
